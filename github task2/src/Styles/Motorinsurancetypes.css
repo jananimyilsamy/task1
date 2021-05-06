@@ -1,0 +1,38 @@
+.types {
+  margin-top: 2958px;
+  margin-left: 0px;
+
+  width: 1200px;
+  height: 807px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.name {
+  margin-top: 89px;
+  margin-left: 20px;
+  width: 683px;
+  height: 54px;
+  text-align: left;
+  font: normal normal 800 30px/40px Gilroy;
+  letter-spacing: 0px;
+  color: #481e6a;
+  opacity: 1;
+}
+.point {
+  margin-top: 15px;
+  text-align: left;
+  font: normal normal 800 15px/20px Gilroy;
+  letter-spacing: 0px;
+  color: #565656;
+  margin-bottom: 10px;
+  opacity: 1;
+}
+
+.bulletpoints {
+  margin-top: 0px;
+  text-align: left;
+  font: normal normal 300 15px/15px Gilroy;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
