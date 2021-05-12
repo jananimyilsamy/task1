@@ -1,0 +1,54 @@
+.outerContainerQuote {
+margin-top: 2828px;
+margin-left: 75px; 
+display:flex;
+justify-content: unset;
+width: 1216px;
+height: 532px;
+display: flex;
+background: transparent linear-gradient(168deg, #BCBCFF 0%, #F0BDFF 100%) 0% 0% no-repeat padding-box;
+border-radius: 95px;
+opacity: 1;
+}
+
+.textArea {
+    padding-top: 105px;
+    margin-left: 58px;
+    width: 525px;
+    height: 153px;
+    text-align: left;
+    font: normal normal 800 64px/75px Gilroy;
+    letter-spacing: 0px;
+    color: #481E6A;
+    opacity: 1;
+}
+
+.innerTextArea {
+    padding-top: 120px;
+    margin-left: 58px;
+    width: 580px;
+    height: 57px;
+    text-align: left;
+    font: normal normal 300 18px/37px Gilroy;
+    letter-spacing: 0px;
+    color: #4B4B4B;
+    opacity: 1;
+}
+
+.quoteButton{
+margin-top: 92px;
+width: 188px;
+height: 56px;
+background: transparent linear-gradient(90deg, #FF7B89 0%, #F69C57 100%) 0% 0% no-repeat padding-box;
+border-radius: 33px;
+opacity: 1;
+}
+
+.imageArea {
+    margin-top: -615px;
+    margin-left: 806px;
+    width: 485px;
+    height: 619px;
+    background: transparent url('../images/Group 90.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
