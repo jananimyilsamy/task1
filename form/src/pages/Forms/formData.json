@@ -1,0 +1,277 @@
+[
+    {
+        "page_label": "About Policy",
+        "page_description": "Please Select the Policies you want for coverage",
+        "page_title":"Policy Coverages",
+        "fields":[
+           {
+                "layout": "row1",
+                "fields":[
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "We can cover your vehicle in the event of breakdown and get you back on the road with our roadside recovery service. Get by paying only £100 extra",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Breakdown",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "Electrical Accessories",
+                                "option_value": "Right Hand Drive"
+                            },
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Breakdown",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "Electrical Accessories",
+                                "option_value": "Right Hand Drive"
+                            },
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Non-electrical accessories",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "CNG fitment",
+                                "option_value": "Right Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "Personal Accident Cover",
+                                "option_value": "Right Hand Drive"
+                            },
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Accident Cover for named passenger",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "Accident Cover for Paid passenger",
+                                "option_value": "Right Hand Drive"
+                            },
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Policy Name 8 ",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "Policy Name 9",
+                                "option_value": "Right Hand Drive"
+                            }
+                        ]
+                    }    
+                ]
+            },
+            
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "car_engine_capacity",
+                        "field_label": "Select your payments schedule for the policy?",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Option 1"
+                            },
+                            {
+                                "option_label": "Option 2"
+                            }
+                        ]
+                    } ,
+                    {
+                        "field_id": "registration_date",
+                        "field_label": "When would you like the cover to begin",
+                        "field_mandatory": "no",
+                        "field_type": "date",
+                        "field_value": "",
+                        "errors": ""
+                    }
+                    
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "What type of quote would you want?",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Breakdown",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "Electrical Accessories",
+                                "option_value": "Right Hand Drive"
+                            }
+                         ] }
+                   ,
+                    {
+                        "field_id": "car_model",
+                        "field_label": "Car Model",
+                        "field_mandatory": "no",
+                        "field_type": "select",
+                        "field_value": "",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Ghost"
+                            },
+                            {
+                                "option_label": "Ghost EVB"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "layout": "row",
+                "fields": [
+                    
+  
+                     {
+                        "field_id": "car_engine_capacity",
+                        "field_label": "What is the Car used for?",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Option 1"
+                            },
+                            {
+                                "option_label": "Option 2"
+                            }
+                        ]
+                    } 
+                    ,{
+                        "field_id": "car_estimated_value",
+                        "field_label": "What is the total annual mileage of the Car?",
+                        "field_mandatory": "no",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": ""
+                    }  
+                   
+                   
+                    
+                ]
+            },
+            {
+                "layout": "",
+                "fields":[
+                    {
+                        "field_id": "car's_manufacture_year",
+                        "field_label": "Select where the Car is kept during the day (for multiple locations, select where it is kept for the longest duration)",
+                        "field_mandatory": "yes",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "2021"
+                            },
+                            {
+                                "option_label": "2020"
+                            }
+                               
+                            
+                            
+                        ]
+                    }    
+                ]
+            },
+            {
+                "layout": "",
+                "fields":[
+                    {
+                        "field_id": "car_body_type",
+                        "field_label": "Select where the Car is kept overnight",
+                        "field_mandatory": "no",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Hatchback"
+                            },
+                            {
+                                "option_label": "Hatchback"
+                            }
+
+                            
+                        ]
+                    }    
+                ]
+            },
+            
+              {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "Does the policy holder have any no claim bonus (NCB)?",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Yes",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "No",
+                                "option_value": "Right Hand Drive"
+                            }
+                         ] }
+                   ,
+                    {
+                        "field_id": "car_model",
+                        "field_label": "Does the policy holder own or use another vehicle?",
+                        "field_mandatory": "no",
+                        "field_type": "select",
+                        "field_value": "",
+                        "errors": "",
+                        "field_options": [
+                            {
+                                "option_label": "Ghost"
+                            },
+                            {
+                                "option_label": "Ghost EVB"
+                            }
+                        ]
+                    }
+                ]
+            }
+                       
+                          
+                           
+           
+                              
+                        ]
+                    }   
+                
+            
+
+        ]
+        
+    
