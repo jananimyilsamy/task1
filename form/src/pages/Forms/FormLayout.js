@@ -9,7 +9,7 @@ function FormLayout({field}) {
     <Form.Row>
       {fields.map ((field, i) => {
         return (
-          <Col key={i}>
+          <Col key={i} className="my-2">
             <Element key={i} field={field} />
           </Col>
         );

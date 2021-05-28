@@ -191,7 +191,8 @@ function DynamicForm() {
                 />
               );
           }
-             if (field.layout === "row1") {  
+          
+             if (field_type === "title") {  
               return (
                 <FormLayout1
                   key={i}

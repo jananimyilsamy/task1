@@ -3,37 +3,29 @@
         "page_label": "About Policy",
         "page_description": "Please Select the Policies you want for coverage",
         "page_title":"Policy Coverages",
+          "page_title1": "Other Policy Details",
         "fields":[
            {
-                "layout": "row1",
+                "layout": "row",
                 "fields":[
                     {
-                        "field_id": "car_drive_type",
+                        "field_id": "coverage_type",
                         "field_label": "We can cover your vehicle in the event of breakdown and get you back on the road with our roadside recovery service. Get by paying only £100 extra",
                         "field_mandatory": "yes",
                         "field_type": "radio",
                         "field_value": "",
                         "field_options": [
                             {
-                                "option_id": "left_hand_drive",
+                                "option_id": "Breakdownid",
                                 "option_label": "Breakdown",
-                                "option_value": "Left Hand Drive"
+                                "option_value": "Breakdown"
                             },
                             {
                                 "option_id": "right_hand_drive",
                                 "option_label": "Electrical Accessories",
                                 "option_value": "Right Hand Drive"
                             },
-                            {
-                                "option_id": "left_hand_drive",
-                                "option_label": "Breakdown",
-                                "option_value": "Left Hand Drive"
-                            },
-                            {
-                                "option_id": "right_hand_drive",
-                                "option_label": "Electrical Accessories",
-                                "option_value": "Right Hand Drive"
-                            },
+                            
                             {
                                 "option_id": "left_hand_drive",
                                 "option_label": "Non-electrical accessories",
@@ -73,7 +65,8 @@
                     }    
                 ]
             },
-            
+
+          
             {
                 "layout": "row",
                 "fields": [
@@ -115,12 +108,12 @@
                         "field_options": [
                             {
                                 "option_id": "left_hand_drive",
-                                "option_label": "Breakdown",
+                                "option_label": "Renewal Existing Policy",
                                 "option_value": "Left Hand Drive"
                             },
                             {
                                 "option_id": "right_hand_drive",
-                                "option_label": "Electrical Accessories",
+                                "option_label": "New insurance policy",
                                 "option_value": "Right Hand Drive"
                             }
                          ] }
@@ -146,7 +139,7 @@
             {
                 "layout": "row",
                 "fields": [
-                    
+         
   
                      {
                         "field_id": "car_engine_capacity",
@@ -261,17 +254,190 @@
                         ]
                     }
                 ]
-            }
-                       
-                          
-                           
-           
-                              
-                        ]
-                    }   
-                
-            
+            },
+             {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "Was the existing policy with us?",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Yes",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "No",
+                                "option_value": "Right Hand Drive"
+                            }
+  ] },
+                      {
+                        "field_id": "car_body_type",
+                        "field_label": "Does the policy holder own or use another vehicle?",
+                        "field_mandatory": "no",
+                        "field_type": "select",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_label": "Hatchback"
+                            },
+                            {
+                                "option_label": "Hatchback"
+                            }
 
+                            
+                        ]
+                    }    
+                ]
+            } ,
+             {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "Is the policy holder's no-claim bonus currently protected",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Yes",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "No",
+                                "option_value": "Right Hand Drive"
+                            }
+                         ] 
+             },
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "Do you want to add Personal Accident Cover for named passenger(s)",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Yes",
+                                "option_value": "yes"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "No",
+                                "option_value":"no"
+                            }
+                         ] 
+             }]} ,
+
+             {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "Select the voluntary excess the policy holder wants to pay",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Yes",
+                                "option_value": "yes"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "No",
+                                "option_value": "no"
+                            }
+                         ] 
+             },
+             {
+                        "field_id": "car_drive_type",
+                        "field_label": "Do you want to add Personal Accident Cover for un-named passenger(s)",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "Yes",
+                                "option_value": "yes"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "No",
+                                "option_value":"no"
+                            }
+                         ] 
+             }
+             ]} , 
+             {
+                "layout": "row",
+                "fields": [
+                    {
+                        "field_id": "car_drive_type",
+                        "field_label": "Enter the number of un-named passenger(s) you want to add",
+                        "field_mandatory": "yes",
+                        "field_type": "radio",
+                        "field_value": "",
+                        "field_options": [
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "1",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "2",
+                                "option_value": "Right Hand Drive"
+                            },
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "3",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "4",
+                                "option_value": "Right Hand Drive"
+                            },
+                            {
+                                "option_id": "left_hand_drive",
+                                "option_label": "5",
+                                "option_value": "Left Hand Drive"
+                            },
+                            {
+                                "option_id": "right_hand_drive",
+                                "option_label": "6",
+                                "option_value": "Right Hand Drive"
+                            }
+                         ] },
+                         {
+                        "field_id": "car_estimated_value",
+                        "field_label": "Enter the sum you want to insure for each un-named passenger",
+                        "field_mandatory": "no",
+                        "field_placeholder": "",
+                        "field_type": "text",
+                        "field_value": ""
+                    } 
+                   
+                ]
+            }
+                              
+                        
+                
+                
+
+                ]
+            }
         ]
         
-    
+            

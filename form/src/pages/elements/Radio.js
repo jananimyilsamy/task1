@@ -29,6 +29,62 @@ function Radio({
   const [legalOwnerChecked, setLegalOwnerChecked] = React.useState (false);
   // const [carModification, setCarModification] = React.useState (false);
 
+  // useEffect (() => {
+  //   const engine_transmission = document.getElementById ('engine_transmission');
+  //   const engine_transmission_btn = document.getElementById (
+  //     '#engine_transmission'
+  //   );
+  //   engine_transmission_btn.onclick = function () {
+  //     if (engine_transmission_btn.innerHTML === '+') {
+  //       engine_transmission.style.display = 'block';
+  //       engine_transmission_btn.innerHTML = '-';
+  //     } else {
+  //       engine_transmission.style.display = 'none';
+  //       engine_transmission_btn.innerHTML = '+';
+  //     }
+  //   };
+
+  //   const paintwork_stickers = document.getElementById ('paintwork_stickers');
+  //   const paintwork_stickers_btn = document.getElementById (
+  //     '#paintwork_stickers'
+  //   );
+  //   paintwork_stickers_btn.onclick = function () {
+  //     if (paintwork_stickers_btn.innerHTML === '+') {
+  //       paintwork_stickers.style.display = 'block';
+  //       paintwork_stickers_btn.innerHTML = '-';
+  //     } else {
+  //       paintwork_stickers.style.display = 'none';
+  //       paintwork_stickers_btn.innerHTML = '+';
+  //     }
+  //   };
+
+  //   const spoilers_bodykits = document.getElementById ('spoilers_bodykits');
+  //   const spoilers_bodykits_btn = document.getElementById (
+  //     '#spoilers_bodykits'
+  //   );
+  //   spoilers_bodykits_btn.onclick = function () {
+  //     if (spoilers_bodykits_btn.innerHTML === '+') {
+  //       spoilers_bodykits.style.display = 'block';
+  //       spoilers_bodykits_btn.innerHTML = '-';
+  //     } else {
+  //       spoilers_bodykits.style.display = 'none';
+  //       spoilers_bodykits_btn.innerHTML = '+';
+  //     }
+  //   };
+
+  //   const wheels_tyres = document.getElementById ('wheels_tyres');
+  //   const wheels_tyres_btn = document.getElementById ('#wheels_tyres');
+  //   wheels_tyres_btn.onclick = function () {
+  //     if (wheels_tyres_btn.innerHTML === '+') {
+  //       wheels_tyres.style.display = 'block';
+  //       wheels_tyres_btn.innerHTML = '-';
+  //     } else {
+  //       wheels_tyres.style.display = 'none';
+  //       wheels_tyres_btn.innerHTML = '+';
+  //     }
+  //   };
+  // }, []);
+
   const radioButtonCheck = e => {
     // const radio_button_field = document.getElementById('radio-button-field');
     // if(radio_button_field.checked){
@@ -58,7 +114,7 @@ function Radio({
   };
 
   return (
-    <Form.Group>
+    <Form.Group className="my-2">
       <Form.Label id="radio-button-label">{field_label}</Form.Label>
       {field_mandatory === 'yes'
         ? <span className="mandatory"><b> * </b></span>
@@ -68,7 +124,7 @@ function Radio({
         {field_options.length > 0 &&
           field_options.map ((option, i) => (
             <Fragment key={i}>
-              <Col lg={4}>
+              <Col lg={3}>
                 <Form.Group
                   id="radio-button-field"
                   className="radio-button"
@@ -92,23 +148,6 @@ function Radio({
           ))}
       </Row>
       <span style={{color: 'red'}}>{errors ? errors : ''}</span>
-
-      {/* <div style={{display: (yesChecked ? 'block' : 'none')}}>    
-                {yes_options.length > 0 && yes_options.map((yes_option, i) => { 
-                    return (
-                        <Form.Group key={i}>
-                            <Form.Label>{yes_option.field_label}</Form.Label>
-                            <Form.Control className="form-field" as="select" multiple={true} value={yes_option.field_value || []} onChange={event => handleChange(yes_option.field_id, event)}>
-                                {yes_option.field_options.length > 0 && yes_option.field_options.map((option, i) =>
-                                    <option value={option.option_label} key={i}>{option.option_label}</option>
-                
-                                )}
-                            </Form.Control>
-                            <span style={{color: "red"}}>{yes_option.errors ? yes_option.errors : ""}</span>
-                        </Form.Group>
-                    );
-                })}
-        </div> */}
 
       <div style={{display: yesChecked ? 'block' : 'none'}}>
         {yes_options.length > 0 &&
