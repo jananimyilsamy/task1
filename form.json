@@ -764,4 +764,178 @@
             }
         ]
         
-            
+          
+
+
+hiiiiiiiiiiiiiiiiiiii
+   // {
+            //     "layout": "",
+            //     "fields":[
+            //         {
+            //             "field_id": "policy_holder_have_any_no_claim_bonus",
+            //             "field_label": "Does the policy holder have any no claim bonus (NCB)?",
+            //             "field_mandatory": "yes",
+            //             "field_placeholder": "",
+            //             "field_type": "radio",
+            //             "field_value": "",
+            //             "field_options": [
+            //                 {
+            //                     "option_id": "policy_holder_yes_claim_bonus",
+            //                     "option_label": "yes",
+            //                     "option_value": "yes"
+            //                 },
+            //                 {
+            //                     "option_id": "policy_holder_no_claim_bonus",
+            //                     "option_label": "no",
+            //                     "option_value": "no"
+            //                 }
+            //             ],
+            //             "legal_owner_fields":[
+            //                 {
+            //                     "field_id": "policy_holder_protect_his_no-claim bonus",
+            //                     "field_label": "Would the policy holder like to protect his no-claim bonus",
+            //                     "field_mandatory": "yes",
+            //                     "field_type": "select",
+            //                     "field_value": "",
+            //                     "field_options": [
+            //                         {
+            //                             "option_label": "yes"
+            //                         },
+            //                         {
+            //                             "option_label": "no"
+            //                         }
+            //                     ]
+            //                 },
+            //                 {
+            //                     "field_id": "years_of_no-claim",
+            //                     "field_label": "How many years of no-claim bonus does the policy holder have?",
+            //                     "field_mandatory": "yes",
+            //                     "field_type": "select",
+            //                     "field_value": "",
+            //                     "field_options": [
+            //                         {
+            //                             "option_label": "0 year"
+            //                         },
+            //                         {
+            //                             "option_label": "1 year"
+            //                         },
+            //                         {
+            //                             "option_label": "2 year"
+            //                         },
+            //                         {
+            //                             "option_label": "3 year"
+            //                         },
+            //                         {
+            //                             "option_label": "4 year"
+            //                         },
+            //                         {
+            //                             "option_label": "5 year"
+            //                         },
+            //                         {
+            //                             "option_label": "6 year"
+            //                         },
+            //                         {
+            //                             "option_label": "7 year"
+            //                         },
+            //                         {
+            //                             "option_label": "8 year"
+            //                         },
+            //                         {
+            //                             "option_label": "9 year"
+            //                         },
+            //                         {
+            //                             "option_label": "10 year"
+            //                         },
+            //                         {
+            //                             "option_label": "11 year"
+            //                         },
+            //                         {
+            //                             "option_label": "12 year"
+            //                         },
+            //                         {
+            //                             "option_label": "13 year"
+            //                         },
+            //                         {
+            //                             "option_label": "14 year"
+            //                         },
+            //                         {
+            //                             "option_label": "15 year"
+            //                         },
+            //                         {
+            //                             "option_label": "16 year"
+            //                         },
+            //                         {
+            //                             "option_label": "17 year"
+            //                         },
+            //                         {
+            //                             "option_label": "18 year"
+            //                         },
+            //                         {
+            //                             "option_label": "19 year"
+            //                         },
+            //                         {
+            //                             "option_label": "20 year"
+            //                         }
+
+            //                     ]
+            //                 },
+            //                 {
+            //                     "field_id": "legal_owner_be_the_policyholder",
+            //                     "field_label": "Will the Legal Owner be the policyholder?",
+            //                     "field_mandatory": "",
+            //                     "field_type": "radio",
+            //                     "field_value": "",
+            //                     "errors": "",
+            //                     "field_options": [
+            //                         {
+            //                             "option_label": "Yes, I will be the Policy Holder"
+            //                         },
+            //                         {
+            //                             "option_label": "No, the Registered Keeper will be the Policy Holder"
+            //                         }
+            //                     ]
+            //                 }   
+            //             ],
+            //             "registered_keeper_fields":[
+            //                 {
+            //                     "field_id": "relationship_of_the_legal_owner_of_the_car_with_the_registered_keeper",
+            //                     "field_label": "Relationship of the legal owner of the Car with the registered keeper",
+            //                     "field_mandatory": "",
+            //                     "field_type": "select",
+            //                     "field_value": "",
+            //                     "field_options": [
+            //                         {
+            //                             "option_label": "Spouse"
+            //                         }
+
+                                    
+            //                     ]
+            //                 },
+            //                 {
+            //                     "field_id": "legal_owner_name",
+            //                     "field_label": "Legal Owner Name",
+            //                     "field_mandatory": "",
+            //                     "field_placeholder": "",
+            //                     "field_type": "text",
+            //                     "field_value": ""
+            //                 },
+            //                 {
+            //                     "field_id": "registered_keeper_be_the_policyholder",
+            //                     "field_label": "Will the Registered Keeper be the policyholder?",
+            //                     "field_mandatory": "",
+            //                     "field_type": "radio",
+            //                     "field_value": "",
+            //                     "errors": "",
+            //                     "field_options": [
+            //                         {
+            //                             "option_label": "Yes, I will be the Policy Holder"
+            //                         },
+            //                         {
+            //                             "option_label": "No, the Legal Owner will be the Policy Holder"
+            //                         }
+            //                     ]
+            //                 }   
+            //             ]
+            //         }   
+            //     ]
+            // }
